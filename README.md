@@ -1,6 +1,26 @@
-# X2HDR: HDR Image Generation in a Perceptually Uniform Space
-<!-- [![arXiv](https://img.shields.io/badge/arXiv-2411.16476-b31b1b.svg)](https://arxiv.org/abs/2411.16602) -->
-[![website](https://img.shields.io/badge/Website-Gitpage-4CCD99)](http://x2hdr.github.io/)
+<div align="center">
+
+<h1>X2HDR: HDR Image Generation in a Perceptually Uniform Space</h1>
+
+[**Ronghuan Wu**](http://kingnobro.github.io/)<sup>1</sup>,
+[**Wanchao Su**](https://ansire.github.io/)<sup>2</sup>,
+[**Kede Ma**](https://kedema.org/)<sup>1</sup>,
+[**Jing Liao**](https://www.cityu.edu.hk/stfprofile/jingliao.htm)<sup>1</sup>,
+[**Rafał K. Mantiuk**](https://www.cl.cam.ac.uk/~rkm38/index.html)<sup>3</sup>
+
+<sup>1</sup>
+<img width="13%" src="assets/CityU_logo.svg" style="vertical-align: top;" alt="CityU logo">
+&emsp;
+<sup>2</sup>
+<img width="21%" src="assets/Monash_logo.svg" style="vertical-align: top;" alt="Monash logo">
+&emsp;
+<sup>3</sup>
+<img width="21%" src="assets/Cambridge_logo.png" style="vertical-align: top;" alt="Cambridge logo">
+
+<!-- <a href="https://arxiv.org/abs/2407.01866"><img src="https://img.shields.io/badge/arXiv-2407.01866-red" alt="arXiv"></a> -->
+<a href="http://x2hdr.github.io/"><img src="https://img.shields.io/badge/project page-X2HDR-blue" alt="project page"></a>
+
+</div>
 
 ![title](./assets/teaser.png)
 
@@ -39,9 +59,9 @@ hf download --local-dir ./models x2hdr/HDR
 ```
 
 - **Evaluation**: The paper reports results for `text2hdr_lora`, `raw2hdr_lora`, and `ldr2hdr_lora`.
-- `text2hdr_lora_preview` is a preview checkpoint trained for 2,000 steps on an internal dataset.
-- `raw2hdr_lora_preview` is a preview checkpoint obtained by continuing finetuning from `raw2hdr_lora` on higher-resolution images.
-- The `_preview` checkpoints have not been comprehensively evaluated.
+- **Preview**: The preview checkpoints are not comprehensively evaluated.
+    - `text2hdr_lora_preview` is a preview checkpoint trained for 2,000 steps on an internal dataset.
+    - `raw2hdr_lora_preview` is a preview checkpoint obtained by continuing finetuning from `raw2hdr_lora` on higher-resolution images.
 
 ## HDR Visualization
 
