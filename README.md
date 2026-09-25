@@ -9,13 +9,13 @@
 [**Rafał K. Mantiuk**](https://www.cl.cam.ac.uk/~rkm38/index.html)<sup>3</sup>
 
 <sup>1</sup>
-<img width="13%" src="assets/CityU_logo.svg" style="vertical-align: top;" alt="CityU logo">
+<img width="12%" src="assets/CityU_logo.svg" style="vertical-align: top;" alt="CityU logo">
 &emsp;
 <sup>2</sup>
 <img width="21%" src="assets/Monash_logo.svg" style="vertical-align: top;" alt="Monash logo">
 &emsp;
 <sup>3</sup>
-<img width="25%" src="assets/Cambridge_logo.png" style="vertical-align: top;" alt="Cambridge logo">
+<img width="30%" src="assets/Cambridge_logo.png" style="vertical-align: top;" alt="Cambridge logo">
 
 <!-- <a href="https://arxiv.org/abs/2407.01866"><img src="https://img.shields.io/badge/arXiv-2407.01866-red" alt="arXiv"></a> -->
 <a href="http://x2hdr.github.io/"><img src="https://img.shields.io/badge/project page-X2HDR-blue" alt="project page"></a>
