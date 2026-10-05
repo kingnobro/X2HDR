@@ -74,7 +74,9 @@ The following command will read prompts from [`test/text2hdr.txt`](test/text2hdr
 python infer_text2hdr.py --batch_prompts test/text2hdr.txt
 ```
 
-The generation parameters have been included in the prompt file. Command line parameter explanations:
+CLIP LoRA weights are disabled by default. Add `--load_clip_lora` to enable them.
+
+Generation parameters are set in the prompt file (`--d` overrides `--seed`):
 - `--w`: width
 - `--h`: height
 - `--d`: seed
@@ -84,7 +86,7 @@ The generation parameters have been included in the prompt file. Command line pa
 If `batch_prompts` is not specified, you can specify a single prompt to generate:
 ```shell
 python infer_text2hdr.py \
-    --prompt "PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A grand, dimly lit hall with a single candle in the foreground" \
+    --prompt "masterpiece, 4K, sharp and detailed, high resolution, best quality, A grand, dimly lit hall with a single candle in the foreground" \
     --width 1024 \
     --height 1024 \
     --seed 2026 \
@@ -96,8 +98,6 @@ The inference script will output both an HDR image (in EXR format) and an LDR im
 
 > [!NOTE]  
 > - **Memory Requirements**: The inference script requires approximately 45GB of GPU memory for 1024×1024 images and 33GB of GPU memory for 512×512 images.
->
-> - **Trigger Word**: All prompts begin with `PU21`, which serves as the required trigger word for the HDR LoRA model.
 >
 > - **Output Luminance**: The generated HDR images are scaled so that their 99.5th percentile luminance equals the `target_luminance` (default: 16.0).
 >

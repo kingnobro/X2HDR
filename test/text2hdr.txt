@@ -1,299 +1,299 @@
 # prompt 1
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, Sunlit desert dunes at high noon with crisp ripples, blazing highlights and hard-edged shadows --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, Sunlit desert dunes at high noon with crisp ripples, blazing highlights and hard-edged shadows --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 2
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, a beautiful sunset at a beach with a palm tree --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, a beautiful sunset at a beach with a palm tree --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 3
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A cathedral interior where morning sun streams through stained glass, casting vivid colored rays across the stone floor and deep shadows --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A cathedral interior where morning sun streams through stained glass, casting vivid colored rays across the stone floor and deep shadows --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 4
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, a photo of New York city at a full moon night --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, a photo of New York city at a full moon night --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 5
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, Aurora borealis shimmering over a frozen lake at night with mirror-like reflections and crystal-clear stars --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, Aurora borealis shimmering over a frozen lake at night with mirror-like reflections and crystal-clear stars --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 6
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A towering waterfall in bright sunlight forming a vivid rainbow in the mist, dark rocks in deep shadow --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A towering waterfall in bright sunlight forming a vivid rainbow in the mist, dark rocks in deep shadow --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 7
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, a lit candle with the shape of bunny --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, a lit candle with the shape of bunny --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 8
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, a stainless steel golf ball sculpture --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, a stainless steel golf ball sculpture --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 9
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, a wine glass on a wooden surface, illuminated by a warm light, creating reflections and shadows --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, a wine glass on a wooden surface, illuminated by a warm light, creating reflections and shadows --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 10
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, a bright living room with sunlight streaming through windows --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, a bright living room with sunlight streaming through windows --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 11
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, a rainy night city with lights reflecting on wet pavement --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, a rainy night city with lights reflecting on wet pavement --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 12
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A grand, dimly lit hall with a single candle in the foreground --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A grand, dimly lit hall with a single candle in the foreground --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 13
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A quiet city street at dusk, lined with glowing street lamps and buildings in the background --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A quiet city street at dusk, lined with glowing street lamps and buildings in the background --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 14
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, Inside a blue ice cave with translucent walls glowing from backlight, sparkling frost and dramatic contrast --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, Inside a blue ice cave with translucent walls glowing from backlight, sparkling frost and dramatic contrast --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 15
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, Modern kitchen with granite tops, stainless appliances, and pendant lights --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, Modern kitchen with granite tops, stainless appliances, and pendant lights --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 16
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A glass of whiskey surrounded by empty glasses in a dimly lit bar --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A glass of whiskey surrounded by empty glasses in a dimly lit bar --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 17
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, galaxy in the sky --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, galaxy in the sky --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 18
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, a photo of the Cambridge University --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, a photo of the Cambridge University --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 19
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A warm, crackling fire with glowing logs burning brightly in a fireplace. --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A warm, crackling fire with glowing logs burning brightly in a fireplace. --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 20
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A bright red firework bursting in the night sky, creating a dazzling display of light --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A bright red firework bursting in the night sky, creating a dazzling display of light --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 21
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, Sunbeams filtering through a misty redwood forest, bright shafts piercing deep green gloom and long shadows --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, Sunbeams filtering through a misty redwood forest, bright shafts piercing deep green gloom and long shadows --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 22
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A thunderstorm with lightning striking behind a city skyline at night --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A thunderstorm with lightning striking behind a city skyline at night --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 23
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A river of glowing lava at night against dark volcanic rocks and smoke --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A river of glowing lava at night against dark volcanic rocks and smoke --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 24
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A lone torii gate rising from the waters, framed by clear skies and distant mountains --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A lone torii gate rising from the waters, framed by clear skies and distant mountains --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 25
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, Bioluminescent waves glowing on a beach under a starry sky --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, Bioluminescent waves glowing on a beach under a starry sky --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 26
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A Moroccan riad courtyard at high noon, intricate lattice shadows from wooden screens across zellige tiles and a central fountain --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A Moroccan riad courtyard at high noon, intricate lattice shadows from wooden screens across zellige tiles and a central fountain --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 27
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, Backlit colored glass bottles on a windowsill with strong sunbeams and shadows --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, Backlit colored glass bottles on a windowsill with strong sunbeams and shadows --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 28
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, Macro of a dewy spiderweb backlit at sunrise with sparkling highlights --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, Macro of a dewy spiderweb backlit at sunrise with sparkling highlights --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 29
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A neon-lit cyberpunk alley in the rain with wet pavement reflections and haze --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A neon-lit cyberpunk alley in the rain with wet pavement reflections and haze --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 30
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A metallic red sports car under showroom spotlights with glossy reflections --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A metallic red sports car under showroom spotlights with glossy reflections --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 31
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A chrome motorcycle parked at night under streetlights with sharp specular highlights --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A chrome motorcycle parked at night under streetlights with sharp specular highlights --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 32
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, Polished silverware on linen near a sunlit window, crisp reflections and soft shadows --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, Polished silverware on linen near a sunlit window, crisp reflections and soft shadows --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 33
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A glossy black grand piano under a single spotlight, dramatic contrast and gleam --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A glossy black grand piano under a single spotlight, dramatic contrast and gleam --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 34
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, City skyline viewed through a rain-streaked window with colorful bokeh lights --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, City skyline viewed through a rain-streaked window with colorful bokeh lights --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 35
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A sunlit greenhouse filled with plants and mist, volumetric light shafts everywhere --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A sunlit greenhouse filled with plants and mist, volumetric light shafts everywhere --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 36
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, An underwater coral reef with sunbeams piercing the surface and caustic patterns --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, An underwater coral reef with sunbeams piercing the surface and caustic patterns --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 37
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A narrow sandstone slot canyon with a single sunbeam from above illuminating dust motes, glowing walls and deep shadows --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A narrow sandstone slot canyon with a single sunbeam from above illuminating dust motes, glowing walls and deep shadows --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 38
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A torchlit cavern with glowing embers and deep, dramatic shadows on rock walls --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A torchlit cavern with glowing embers and deep, dramatic shadows on rock walls --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 39
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A floating lantern festival at night over a calm river with golden reflections --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A floating lantern festival at night over a calm river with golden reflections --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 40
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A vibrant night market with neon signs and wet street reflections in the rain --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A vibrant night market with neon signs and wet street reflections in the rain --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 41
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A Christmas tree with twinkling lights and sparkling ornaments, rich bokeh glow --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A Christmas tree with twinkling lights and sparkling ornaments, rich bokeh glow --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 42
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, Northern lights reflecting in a mountain fjord under a clear winter sky --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, Northern lights reflecting in a mountain fjord under a clear winter sky --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 43
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A lighthouse beam cutting through thick sea fog at dusk with dramatic contrast --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A lighthouse beam cutting through thick sea fog at dusk with dramatic contrast --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 44
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, Inside the barrel of a breaking ocean wave at sunrise, glowing turquoise water and a blazing sunburst at the opening --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, Inside the barrel of a breaking ocean wave at sunrise, glowing turquoise water and a blazing sunburst at the opening --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 45
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A backlit sunflower field at golden hour with glowing translucent petals --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A backlit sunflower field at golden hour with glowing translucent petals --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 46
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A lightning storm over red desert mesas at twilight with dramatic clouds --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A lightning storm over red desert mesas at twilight with dramatic clouds --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 47
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, Hot air balloons at sunrise over a valley with long soft shadows and haze --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, Hot air balloons at sunrise over a valley with long soft shadows and haze --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 48
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A golden wheat field backlit with lens flare and floating dust particles --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A golden wheat field backlit with lens flare and floating dust particles --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 49
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A steam locomotive at night illuminated by station lamps and drifting smoke --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A steam locomotive at night illuminated by station lamps and drifting smoke --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 50
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A glacier ridge at dawn with a sunburst peeking over icy peaks and sparkles --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A glacier ridge at dawn with a sunburst peeking over icy peaks and sparkles --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 51
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A mirror-still lake at sunrise with perfect mountain reflections and morning fog --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A mirror-still lake at sunrise with perfect mountain reflections and morning fog --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 52
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, Sun rays slicing between skyscrapers at sunrise through city haze and glass --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, Sun rays slicing between skyscrapers at sunrise through city haze and glass --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 53
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A suspension bridge at blue hour with glowing lights and water reflections --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A suspension bridge at blue hour with glowing lights and water reflections --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 54
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A highway at night with long-exposure light trails of red and white streaks --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A highway at night with long-exposure light trails of red and white streaks --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 55
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A steel foundry with molten metal pouring, fiery glow against dark machinery --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A steel foundry with molten metal pouring, fiery glow against dark machinery --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 56
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, Welding sparks spraying in a dim workshop, bright bursts and deep shadows --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, Welding sparks spraying in a dim workshop, bright bursts and deep shadows --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 57
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A sparkler long exposure drawing light trails in the night, vivid bokeh --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A sparkler long exposure drawing light trails in the night, vivid bokeh --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 58
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A candlelit dinner table with crystal glassware and rich reflections on cutlery --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A candlelit dinner table with crystal glassware and rich reflections on cutlery --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 59
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A crystal chandelier sparkling with prismatic highlights in a grand foyer --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A crystal chandelier sparkling with prismatic highlights in a grand foyer --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 60
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, Macro of a diamond ring with starburst reflections and razor-sharp facets --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, Macro of a diamond ring with starburst reflections and razor-sharp facets --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 61
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, Macro wristwatch dial with luminous markers and crisp metallic reflections --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, Macro wristwatch dial with luminous markers and crisp metallic reflections --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 62
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A steaming coffee cup in window light with soft rays and dust motes floating --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A steaming coffee cup in window light with soft rays and dust motes floating --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 63
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A glass teapot of amber tea backlit on a wooden table with glowing edges --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A glass teapot of amber tea backlit on a wooden table with glowing edges --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 64
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, Macro of ice cubes in soda with condensation droplets and sparkling bubbles --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, Macro of ice cubes in soda with condensation droplets and sparkling bubbles --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 65
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A high-speed water splash crown on a reflective surface with crisp highlights --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A high-speed water splash crown on a reflective surface with crisp highlights --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 66
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A prism casting a vivid spectrum of colors across a clean white wall --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A prism casting a vivid spectrum of colors across a clean white wall --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 67
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, Close-up of a compact disc with intense diffraction rainbow patterns --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, Close-up of a compact disc with intense diffraction rainbow patterns --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 68
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, Holographic foil shimmering with iridescent highlights and deep shadows --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, Holographic foil shimmering with iridescent highlights and deep shadows --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 69
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, Oil slick rainbow colors on wet asphalt after rain, glossy reflections --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, Oil slick rainbow colors on wet asphalt after rain, glossy reflections --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 70
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, Stained glass patterns projected onto a stone floor by bright sunlight --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, Stained glass patterns projected onto a stone floor by bright sunlight --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 71
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, Laser beams cutting through stage haze in a dark room, intense contrast --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, Laser beams cutting through stage haze in a dark room, intense contrast --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 72
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A concert stage with spotlights, fog, and audience silhouettes glowing --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A concert stage with spotlights, fog, and audience silhouettes glowing --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 73
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A stadium at night under powerful floodlights with rain streaks and glare --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A stadium at night under powerful floodlights with rain streaks and glare --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 74
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, Fireflies glowing in a dark forest with soft bokeh and misty atmosphere --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, Fireflies glowing in a dark forest with soft bokeh and misty atmosphere --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 75
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A campfire beneath the Milky Way, warm glow against a deep starry sky --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A campfire beneath the Milky Way, warm glow against a deep starry sky --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 76
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A beach bonfire at night with flying sparks and waves reflecting firelight --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A beach bonfire at night with flying sparks and waves reflecting firelight --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 77
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A lantern glowing on fresh snow in a quiet village night, crisp sparkle --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A lantern glowing on fresh snow in a quiet village night, crisp sparkle --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 78
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, Northern lights over a pine forest mirrored in a still lake at night --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, Northern lights over a pine forest mirrored in a still lake at night --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 79
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A rooftop infinity pool at night reflecting skyscraper lights and stars --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A rooftop infinity pool at night reflecting skyscraper lights and stars --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 80
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A glass atrium with sun shafts, reflections on marble floor and glass rails --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A glass atrium with sun shafts, reflections on marble floor and glass rails --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 81
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A subway platform with polished floor and overhead lights creating long gleam --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A subway platform with polished floor and overhead lights creating long gleam --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 82
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, Airport terminal glass facade at sunrise with strong reflections and glow --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, Airport terminal glass facade at sunrise with strong reflections and glow --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 83
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A dark train tunnel with a bright exit light silhouetting the rails --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A dark train tunnel with a bright exit light silhouetting the rails --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 84
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A lone tree in silhouette against a dramatic sunset sky with vivid gradients --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A lone tree in silhouette against a dramatic sunset sky with vivid gradients --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 85
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A stormy sea with the sun breaking through dark clouds, intense highlights --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A stormy sea with the sun breaking through dark clouds, intense highlights --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 86
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A sailing ship at golden hour with shimmering water and long reflections --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A sailing ship at golden hour with shimmering water and long reflections --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 87
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, An icy river with glittering sunstars on water and crisp snowy banks --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, An icy river with glittering sunstars on water and crisp snowy banks --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 88
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, Macro of frozen methane bubbles in a clear lake backlit with bright sparkle --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, Macro of frozen methane bubbles in a clear lake backlit with bright sparkle --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 89
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, Frost patterns on a window backlit by sunrise, luminous crystalline detail --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, Frost patterns on a window backlit by sunrise, luminous crystalline detail --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 90
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, Macro soap bubble with swirling iridescent colors and bright speculars --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, Macro soap bubble with swirling iridescent colors and bright speculars --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 91
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, Metallic beetle macro with glossy elytra and sharp specular highlights --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, Metallic beetle macro with glossy elytra and sharp specular highlights --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 92
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, Vibrant macaw parrots backlit so their feathers glow translucently --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, Vibrant macaw parrots backlit so their feathers glow translucently --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 93
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, Jellyfish drifting in a dark aquarium with soft internal bioluminescent glow --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, Jellyfish drifting in a dark aquarium with soft internal bioluminescent glow --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 94
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A tropical fish school with sun caustics rippling across vivid corals --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A tropical fish school with sun caustics rippling across vivid corals --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 95
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, Cozy bookstore at night seen through a window with warm lamps and glare --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, Cozy bookstore at night seen through a window with warm lamps and glare --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 96
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A vintage cinema marquee glowing with bright neon letters at night --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A vintage cinema marquee glowing with bright neon letters at night --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 97
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A retro diner interior with chrome edges and neon reflections on tiles --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A retro diner interior with chrome edges and neon reflections on tiles --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 98
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, String lights hanging over a city street at night with creamy bokeh --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, String lights hanging over a city street at night with creamy bokeh --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 99
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A snowy mountain village at night with warm window light and crisp stars --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A snowy mountain village at night with warm window light and crisp stars --w 512 --h 512 --d 2026 --g 3.5 --s 40
 
 # prompt 100
-PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A pagoda at dusk illuminated by paper lanterns with reflections in a pond --w 512 --h 512 --d 1 --g 3.5 --s 40
+masterpiece, 4K, sharp and detailed, high resolution, best quality, A pagoda at dusk illuminated by paper lanterns with reflections in a pond --w 512 --h 512 --d 2026 --g 3.5 --s 40

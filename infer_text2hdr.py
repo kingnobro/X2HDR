@@ -18,30 +18,37 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
-def setup_pipeline(model_id: str, lora_path: str) -> FluxPipeline:
-    """Initialize and setup the FLUX pipeline with LoRA weights."""
+def setup_pipeline(model_id: str, lora_path: str, load_clip_lora: bool = False) -> FluxPipeline:
+    """Load Transformer LoRA and optionally the finetuned CLIP LoRA weights."""
     pipe = FluxPipeline.from_pretrained(
         model_id,
         torch_dtype=torch.bfloat16
     ).to("cuda")
-    if not hasattr(pipe.text_encoder, "text_model"):
-        # Kohya-converted LoRA keys retain a text_model. prefix that Transformers 5
-        # removed from CLIP, so no layers match and rank inference raises IndexError.
-        # Remove the extra prefix after conversion to match the current CLIP layers.
-        state_dict, network_alphas = pipe.lora_state_dict(lora_path, return_alphas=True)
-        if network_alphas:
-            state_dict.update(network_alphas)
-        old_prefix = "text_encoder.text_model."
-        renamed_count = sum(key.startswith(old_prefix) for key in state_dict)
-        if renamed_count:
+    state_dict, network_alphas = pipe.lora_state_dict(lora_path, return_alphas=True)
+    if network_alphas:
+        state_dict.update(network_alphas)
+
+    if not load_clip_lora:
+        # Load only Transformer LoRA unless CLIP finetuning is explicitly enabled.
+        state_dict = {key: value for key, value in state_dict.items()
+                      if key.startswith("transformer.")}
+        if not state_dict:
+            raise ValueError("No Transformer LoRA weights found in the checkpoint")
+        logger.info("Loading Transformer LoRA only; CLIP LoRA disabled")
+    else:
+        if not hasattr(pipe.text_encoder, "text_model"):
+            # Kohya conversion retains text_model., which Transformers 5 removed
+            # from CLIP. Remove this prefix so the LoRA weights match CLIP layers.
+            old_prefix = "text_encoder.text_model."
+            renamed_count = sum(key.startswith(old_prefix) for key in state_dict)
             state_dict = {
                 "text_encoder." + key[len(old_prefix):] if key.startswith(old_prefix) else key: value
                 for key, value in state_dict.items()
             }
             logger.info("Normalized %d CLIP LoRA keys for Transformers 5", renamed_count)
-        pipe.load_lora_weights(state_dict)
-    else:
-        pipe.load_lora_weights(lora_path)
+        logger.info("Loading Transformer and CLIP LoRA weights")
+
+    pipe.load_lora_weights(state_dict)
     return pipe
 
 def generate_latents(
@@ -251,7 +258,7 @@ def main():
     parser = argparse.ArgumentParser(description="FLUX Diffuser LoRA Test with batch processing support")
     parser.add_argument("--model_id", type=str, default="models/Flux", help="Path to the FLUX model")
     parser.add_argument("--lora_path", type=str, default="models/text2hdr_lora.safetensors", help="Path to LoRA weights")
-    parser.add_argument("--prompt", type=str, default="PU21, masterpiece, 4K, sharp and detailed, high resolution, best quality, A grand, dimly lit hall with a single candle in the foreground", help="Single prompt to generate")
+    parser.add_argument("--prompt", type=str, default="masterpiece, 4K, sharp and detailed, high resolution, best quality, A grand, dimly lit hall with a single candle in the foreground", help="Single prompt to generate")
     parser.add_argument("--batch_prompts", type=str, default=None, help="File containing prompts with options for batch processing. If not provided, single prompt mode will be used.")
     parser.add_argument("--output_dir", type=str, default="output", help="Output directory")
     parser.add_argument("--width", type=int, default=512, help="Image width")
@@ -259,9 +266,12 @@ def main():
     parser.add_argument("--guidance_scale", type=float, default=3.5, help="Guidance scale")
     parser.add_argument("--num_inference_steps", type=int, default=30, help="Number of inference steps")
     parser.add_argument("--max_sequence_length", type=int, default=512, help="Maximum sequence length")
-    parser.add_argument("--seed", type=int, default=1, help="Random seed")
+    parser.add_argument("--seed", type=int, default=2026, help="Random seed")
     parser.add_argument("--target_luminance", type=float, default=16.0, help="Target luminance for HDR")
     
+    parser.add_argument("--load_clip_lora", action="store_true",
+                        help="Load finetuned CLIP LoRA weights (disabled by default)")
+
     args = parser.parse_args()
     
     # Create output directory
@@ -269,7 +279,7 @@ def main():
     
     # Setup pipeline
     logger.info("Setting up FLUX pipeline...")
-    pipe = setup_pipeline(args.model_id, args.lora_path)
+    pipe = setup_pipeline(args.model_id, args.lora_path, load_clip_lora=args.load_clip_lora)
     logger.info("Pipeline setup complete")
     
     if args.batch_prompts:
