@@ -1,7 +1,7 @@
 # for inference
 accelerate
-transformers
-diffusers
+transformers==5.18.0
+diffusers==0.40.0
 opencv-python
 huggingface-hub
 numpy
@@ -9,7 +9,7 @@ pyexr
 gdown
 sentencepiece
 protobuf
-peft
+peft==0.21.2
 einops
 HDRutils
 

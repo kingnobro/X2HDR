@@ -24,7 +24,24 @@ def setup_pipeline(model_id: str, lora_path: str) -> FluxPipeline:
         model_id,
         torch_dtype=torch.bfloat16
     ).to("cuda")
-    pipe.load_lora_weights(lora_path)
+    if not hasattr(pipe.text_encoder, "text_model"):
+        # Kohya-converted LoRA keys retain a text_model. prefix that Transformers 5
+        # removed from CLIP, so no layers match and rank inference raises IndexError.
+        # Remove the extra prefix after conversion to match the current CLIP layers.
+        state_dict, network_alphas = pipe.lora_state_dict(lora_path, return_alphas=True)
+        if network_alphas:
+            state_dict.update(network_alphas)
+        old_prefix = "text_encoder.text_model."
+        renamed_count = sum(key.startswith(old_prefix) for key in state_dict)
+        if renamed_count:
+            state_dict = {
+                "text_encoder." + key[len(old_prefix):] if key.startswith(old_prefix) else key: value
+                for key, value in state_dict.items()
+            }
+            logger.info("Normalized %d CLIP LoRA keys for Transformers 5", renamed_count)
+        pipe.load_lora_weights(state_dict)
+    else:
+        pipe.load_lora_weights(lora_path)
     return pipe
 
 def generate_latents(
@@ -242,7 +259,7 @@ def main():
     parser.add_argument("--guidance_scale", type=float, default=3.5, help="Guidance scale")
     parser.add_argument("--num_inference_steps", type=int, default=30, help="Number of inference steps")
     parser.add_argument("--max_sequence_length", type=int, default=512, help="Maximum sequence length")
-    parser.add_argument("--seed", type=int, default=2026, help="Random seed")
+    parser.add_argument("--seed", type=int, default=1, help="Random seed")
     parser.add_argument("--target_luminance", type=float, default=16.0, help="Target luminance for HDR")
     
     args = parser.parse_args()
