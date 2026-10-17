@@ -588,7 +588,6 @@ class FluxPipeline(DiffusionPipeline, FluxLoraLoaderMixin, FromSingleFileMixin):
                     pu21_image = torch.from_numpy(np.ascontiguousarray(pu21_image)).permute(2, 0, 1).unsqueeze(0).float()
                     condition_image = pu21_image * 2.0 - 1.0
                 else:
-                    print(img)
                     condition_image = self.image_processor.preprocess(img, height=self.cond_height, width=self.cond_width)
                     condition_image = condition_image.to(dtype=torch.float32)
                 condition_image_ls.append(condition_image)

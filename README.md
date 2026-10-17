@@ -125,7 +125,7 @@ python infer_raw2hdr.py --raw_image test/test_raw.CR2 --width 720 --height 480 -
 > [!NOTE]  
 > - **RAW Image I/O**: We use [`HDRutils`](https://github.com/gfxdisp/HDRUtils) for RAW image I/O, which can convert RAW images to `.exr` format. Therefore, our `infer_raw2hdr.py` script supports both RAW image files and `.exr` files as input.
 >
-> - **Downsampling**: RAW images typically have high resolution. Since FLUX cannot process such high resolutions, the input image is first downsampled to `width × height`.
+> - **Downsampling**: RAW images typically have high resolution. Since FLUX cannot process such high resolutions, the input image is first downsampled to `width × height`. By default the image is stretched to that size; add `--center_crop` to center-crop it to the target aspect ratio first.
 >
 > - **Text-Guided Hallucination**: For RAW-to-HDR without text prompt, the defaults are `guidance_scale=3.5` and `num_inference_steps=30`. When using a text prompt to guide the hallucination, you can increase these values to get results that better match the text prompt. You can also change the default `seed=42` to get different results.
 

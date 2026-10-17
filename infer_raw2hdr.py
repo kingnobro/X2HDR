@@ -20,7 +20,28 @@ def clear_cache(transformer):
     for name, attn_processor in transformer.attn_processors.items():
         attn_processor.bank_kv.clear()
 
-def preprocess_raw_to_exr(raw_image_path: str, width: int, height: int, output_dir: str):
+def center_crop_to_aspect(image: np.ndarray, width: int, height: int) -> np.ndarray:
+    """Center-crop an HxWxC image to the aspect ratio of width x height."""
+    h, w = image.shape[:2]
+    if w * height > h * width:
+        new_w = round(h * width / height)
+        x0 = (w - new_w) // 2
+        image = image[:, x0:x0 + new_w]
+    elif w * height < h * width:
+        new_h = round(w * height / width)
+        y0 = (h - new_h) // 2
+        image = image[y0:y0 + new_h]
+    return image
+
+def resize_to_target(image: np.ndarray, width: int, height: int, center_crop: bool = False) -> np.ndarray:
+    """Resize an HxWxC image to width x height, optionally center-cropping first to keep the aspect ratio."""
+    if center_crop:
+        image = center_crop_to_aspect(image, width, height)
+    if image.shape[:2] != (height, width):
+        image = cv2.resize(image, (width, height), interpolation=cv2.INTER_LINEAR)
+    return image
+
+def preprocess_raw_to_exr(raw_image_path: str, width: int, height: int, output_dir: str, center_crop: bool = False):
     """
     Preprocess RAW file to EXR format with resizing.
     
@@ -29,6 +50,7 @@ def preprocess_raw_to_exr(raw_image_path: str, width: int, height: int, output_d
         width: Target width for resizing
         height: Target height for resizing
         output_dir: Directory to save processed EXR file
+        center_crop: Center-crop to the target aspect ratio before resizing
         
     Returns:
         Path to the processed EXR file
@@ -48,7 +70,7 @@ def preprocess_raw_to_exr(raw_image_path: str, width: int, height: int, output_d
     raw_image = np.maximum(raw_image, 0.0)
     
     # Resize to target dimensions
-    resized_image = cv2.resize(raw_image, (width, height), interpolation=cv2.INTER_LINEAR)
+    resized_image = resize_to_target(raw_image, width, height, center_crop)
     logger.info(f"Resized image to: {resized_image.shape}")
     
     # Save as EXR file in output directory
@@ -90,7 +112,8 @@ def process_raw_to_hdr(
     max_sequence_length: int,
     seed: int,
     output_dir: str,
-    input_is_raw: bool = True
+    input_is_raw: bool = True,
+    center_crop: bool = False
 ):
     """Process a single raw HDR image to generate output HDR."""
     logger.info(f"Processing raw image: {raw_image_path}")
@@ -109,13 +132,17 @@ def process_raw_to_hdr(
     if ext in raw_extensions:
         logger.info("Detected RAW file format, preprocessing...")
         # Preprocess RAW file to EXR
-        processed_exr_path = preprocess_raw_to_exr(raw_image_path, width, height, output_dir)
+        processed_exr_path = preprocess_raw_to_exr(raw_image_path, width, height, output_dir, center_crop)
         # Load the processed EXR image
         spatial_image = read_hdr_image(processed_exr_path)
     else:
         # Load the HDR image directly (assuming it's already EXR format)
         logger.info("Loading EXR file directly...")
         spatial_image = read_hdr_image(raw_image_path)
+        if spatial_image is None:
+            logger.error(f"Could not read input image: {raw_image_path}")
+            return
+        spatial_image = resize_to_target(spatial_image, width, height, center_crop)
     
     # Run pipeline to generate HDR image
     logger.info("Running inference...")
@@ -168,7 +195,10 @@ def main():
     parser.add_argument("--num_inference_steps", type=int, default=30, help="Number of inference steps")
     parser.add_argument("--max_sequence_length", type=int, default=512, help="Maximum sequence length")
     parser.add_argument("--seed", type=int, default=42, help="Random seed")
-    parser.add_argument("--input_is_raw", action="store_true", default=True, help="Whether input is HDR format")
+    parser.add_argument("--input_is_raw", action=argparse.BooleanOptionalAction, default=True,
+                        help="PU21-encode the linear RAW/EXR input before conditioning (disable with --no-input_is_raw)")
+    parser.add_argument("--center_crop", action="store_true",
+                        help="Center-crop the input to the --width/--height aspect ratio before resizing (default: stretch)")
     
     args = parser.parse_args()
     
@@ -187,7 +217,8 @@ def main():
         args.max_sequence_length,
         args.seed,
         args.output_dir,
-        args.input_is_raw
+        args.input_is_raw,
+        args.center_crop
     )
     
     logger.info("Done!")
