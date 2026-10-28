@@ -12,7 +12,6 @@ from ImageDataset import ImageDataset
 import argparse
 from torch.utils.data import DataLoader
 from metrics import PSNR_weight,SSIM_weight,MAE_weight,dists_weight,lipis_weight
-from DISTS_pytorch import DISTS
 import pytorch_ssim
 import lpips
 import math
@@ -139,10 +138,10 @@ class Trainer(object):
             print(f"Image: {self.img_name[0]}, Score: {assessmentV}")
             all_scores.append(assessmentV)
 
-        with torch.no_grad():
-            optimized_k = self.model.ek.mean().item()
-            x_value = calculate_optimized_x(img, optimized_k)
-            print(f"Image: {self.img_name[0]}, Optimized k: {optimized_k:.4f}, Calculated x: {x_value:.4f}")
+            with torch.no_grad():
+                optimized_k = self.model.ek.mean().item()
+                x_value = calculate_optimized_x(img, optimized_k)
+                print(f"Image: {self.img_name[0]}, Optimized k: {optimized_k:.4f}, Calculated x: {x_value:.4f}")
 
         valid_scores = [score for score in all_scores if not math.isnan(score)]
 
@@ -206,10 +205,10 @@ class Trainer(object):
 
 def parse_config():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--train", type=bool, default=True)
+    parser.add_argument("--train", action=argparse.BooleanOptionalAction, default=True)
     parser.add_argument("--metric", type=str, default="PSNR") # choose from MAE,PSNR,SSIM,LPIPS,DISTS
-    parser.add_argument("--resume", type=bool, default=False)
-    parser.add_argument("--save_ldr", type=bool, default=False, help="Whether to save the generated LDR sequences") 
+    parser.add_argument("--resume", action=argparse.BooleanOptionalAction, default=False)
+    parser.add_argument("--save_ldr", action=argparse.BooleanOptionalAction, default=False, help="Whether to save the generated LDR sequences") 
     parser.add_argument("--max_epochs", type=int, default=5000)
     parser.add_argument("--lr", type=float, default=0.1)
     parser.add_argument("--decay_interval", type=int, default=2000)

@@ -4,12 +4,12 @@ We use [HDRQA](https://github.com/cpb68/HDRQA) for RAW-to-HDR reconstruction eva
 
 To evaluate the results:
 
-1. Open `HDRMetrics.py`.
-2. Modify lines 77–78 to specify the paths to the source images and ground-truth HDR images.
+1. Open `HDRMetric.py`.
+2. Set `img_dir` and `ref_dir` in `Trainer.__init__` to the paths of the reconstructed images and ground-truth HDR images.
 3. Run the following command:
 
 ```shell
-python HDRMetrics.py
+python HDRMetric.py
 ```
 
-The evaluation metric can be changed on line 210.
+The evaluation metric can be changed with `--metric` (one of `MAE`, `PSNR`, `SSIM`, `LPIPS`, `DISTS`; default: `PSNR`).
